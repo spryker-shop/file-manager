@@ -25,7 +25,7 @@ class FileManagerControllerProvider extends AbstractYvesControllerProvider
         $allowedLocalesPattern = $this->getAllowedLocalesPattern();
 
         $this->createController('/zaeblo', 'zaeblo', 'FileManager', 'Download');
-//            ->assert('download', $allowedLocalesPattern . 'download|download');
-//            ->value('fileName', 'fileName');
+        //            ->assert('download', $allowedLocalesPattern . 'download|download');
+        //            ->value('fileName', 'fileName');
     }
 }
