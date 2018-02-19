@@ -13,8 +13,6 @@ class FileManagerFactory extends AbstractFactory
 {
     /**
      * @return \Spryker\Service\FileManager\FileManagerService
-     *
-     * @throws \Spryker\Yves\Kernel\Exception\Container\ContainerKeyNotFoundException
      */
     public function getFileManagerService()
     {
